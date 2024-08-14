@@ -13,6 +13,9 @@ import subprocess
 NER = spacy.load('en_core_web_sm')
 DATA_DIR = './data'
 
+if not os.path.exists(DATA_DIR):
+    os.makedirs(DATA_DIR)
+
 # Set your personal API KEY
 MC_API_KEY = '57c1834ae9810bbc6de56e7e38c0d886a08008ca'
 mc_search = mediacloud.api.SearchApi(MC_API_KEY)

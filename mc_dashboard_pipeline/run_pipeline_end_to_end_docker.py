@@ -7,7 +7,8 @@ import datetime as dt
 import time
 import subprocess
 
-EXPERIMENTS_DIR = '/work/pi_pgrabowicz_umass_edu/cbagchi/media_cloud_election_dashboard/data/experiments'
+# EXPERIMENTS_DIR = '/work/pi_pgrabowicz_umass_edu/cbagchi/media_cloud_election_dashboard/data/experiments'
+EXPERIMENTS_DIR = './data/experiments'
 
 start_time = time.time()
 
