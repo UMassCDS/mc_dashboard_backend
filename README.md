@@ -21,3 +21,8 @@ python run_experiments_on_full_pipeline_slurm.py
 ```
 
 This creates config files based on parameters in the .py file and runs the pipeline end to end.
+
+
+## Build and run Docker container
+1. To build: 
+2. To run with the data folder mounted as expected: `docker run --mount type=bind,source=/absolute_path/data,target=/scripts/mc_dashboard_pipeline/data mc_backend

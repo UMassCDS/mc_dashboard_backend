@@ -8,7 +8,7 @@ import datetime as dt
 from datetime import date
 import subprocess
 
-CONFIG_FILES_DIR = './experiments/2024/config_files'
+CONFIG_FILES_DIR = './data/experiments/2024/config_files'
 EXPERIMENTS_DIR = './data/experiments'
 # DATA_DIR = './data/mc_data_day_by_day_all_news'
 # EXPERIMENTS_DIR = '/work/pi_pgrabowicz_umass_edu/cbagchi/media_cloud_election_dashboard/data/experiments'
